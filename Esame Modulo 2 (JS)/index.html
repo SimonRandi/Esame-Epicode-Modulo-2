@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Foglio di stile -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Titolo del documento -->
+    <title>Job finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <h1 class="heading">Find your job!</h1>
+        <h5 class="heading-description">
+          You can find your job by searching the Title of your profession or
+          with the Location in which you do it.
+        </h5>
+        <form>
+          <input id="job-title" placeholder="Insert job..." type="text" />
+          <input
+            id="job-location"
+            placeholder="Insert location..."
+            type="text"
+          />
+
+          <button type="submit" id="btn">Search</button>
+        </form>
+        <div class="result"></div>
+      </div>
+      <div class="footer">
+        <p>
+          Made by Simone for
+          <span>
+            <img class="epicode-img" src="./assets/epicode_logo.png" alt=""
+          /></span>
+        </p>
+      </div>
+    </div>
+
+    <script src="./js/esercizio.js"></script>
+  </body>
+</html>
